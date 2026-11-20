@@ -1,0 +1,12 @@
+{
+  "projects": {
+    "default": "englishroute"
+  },
+  "targets": {
+    "englishroute": {
+      "hosting": {
+        "start": ["englishroute-start"]
+      }
+    }
+  }
+}
