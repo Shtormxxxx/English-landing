@@ -3,7 +3,7 @@
  *  Пример: 'https://script.google.com/macros/s/AKfycb.../exec'
  *  Пока здесь заглушка, форма предлагает отправить заявку в WhatsApp.
  * ===================================================================== */
-const APPS_SCRIPT_URL = 'ВСТАВИТЬ_URL_APPS_SCRIPT';
+const APPS_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbw5pXkwvEupc1Yy1EUQRpAhUrySQkNMTtrrSyip1oYw4f3_unemAwG2ze_aMP2KHEth/exec';
 
 const WA_NUMBER = '77072714655';
 const RATE_LIMIT_MS = 30000;
