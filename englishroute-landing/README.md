@@ -34,6 +34,18 @@ englishroute-landing/
 
 ---
 
+## 0. Быстрый путь: всё одним скриптом
+
+На своём компьютере (нужен Node.js 18+) из папки `englishroute-landing`:
+
+```bash
+bash tools/setup.sh
+```
+
+Скрипт сам создаёт Таблицу со скриптом заявок (через clasp), разворачивает веб-приложение, вставляет его URL в `main.js` и деплоит сайт только в `englishroute-start`. От вас нужно подтверждать входы в Google и Firebase и один раз нажать «Выполнить» для `testLead`.
+
+Готовый промт для Claude на вашем компьютере (с доступом к Chrome) лежит в `DEPLOY_PROMPT.md`. Ниже те же шаги вручную.
+
 ## 1. Подключить приём заявок (Google Apps Script)
 
 1. Откройте [sheets.new](https://sheets.new): создастся новая Google Таблица. Назовите её, например, «EnglishRoute — заявки».
