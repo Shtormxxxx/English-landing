@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Manrope:wght@800&display=block">
+<style>
+  html, body { margin: 0; }
+  body {
+    width: 1200px; height: 630px; overflow: hidden; position: relative;
+    background-color: #fbfaf5;
+    background-image: linear-gradient(to bottom, #dfe7f1 2px, transparent 2px), linear-gradient(to right, #dfe7f1 2px, transparent 2px);
+    background-size: 36px 36px;
+    font-family: 'Manrope', sans-serif; color: #1b2a6b;
+  }
+  .margin { position: absolute; top: 0; bottom: 0; left: 78px; width: 3px; background: #c62828; opacity: .55; }
+  .text { position: absolute; left: 118px; top: 70px; width: 640px; }
+  .eyebrow { font-family: 'Caveat', cursive; font-size: 40px; color: #c62828; transform: rotate(-1.5deg); transform-origin: left; margin: 0 0 14px; }
+  h1 { font-size: 58px; line-height: 1.1; margin: 0; letter-spacing: -.5px; }
+  .u { color: #c62828; white-space: nowrap; padding-bottom: 6px;
+    background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 14' preserveAspectRatio='none'%3E%3Cpath d='M3 9 C 45 3, 95 4, 140 7 S 186 11, 197 5' fill='none' stroke='%23c62828' stroke-width='5' stroke-linecap='round' vector-effect='non-scaling-stroke'/%3E%3C/svg%3E") left bottom / 100% 18px no-repeat; }
+  .free { font-family: 'Caveat', cursive; font-size: 44px; margin: 34px 0 0; }
+  .site { position: absolute; left: 118px; bottom: 44px; font-size: 26px; }
+  .site b { color: #c62828; }
+  .card { position: absolute; right: 70px; top: 132px; width: 330px; padding: 40px 28px 22px 58px; background: #fff;
+    background-image: linear-gradient(to bottom, transparent 41px, #cfdcec 41px, #cfdcec 43px); background-size: 100% 43px; background-position: 0 20px;
+    border: 1px solid #dbe3ee; box-shadow: 0 20px 30px -18px rgba(27,42,107,.5); transform: rotate(-2deg); }
+  .card::before { content: ""; position: absolute; top: 0; bottom: 0; left: 40px; width: 3px; background: #c62828; opacity: .55; }
+  .tape { position: absolute; top: -16px; left: 50%; width: 130px; height: 32px; margin-left: -65px; background: rgba(240,222,150,.8); transform: rotate(3deg); }
+  .ct { font-family: 'Caveat', cursive; font-size: 40px; line-height: 43px; margin-bottom: 6px; }
+  .row { display: flex; justify-content: space-between; height: 43px; line-height: 43px; font-size: 24px; font-weight: 800; }
+  .row span { font-family: 'Caveat', cursive; color: #c62828; font-size: 38px; }
+  .ov { font-size: 28px; height: 60px; line-height: 60px; }
+  .ov span { font-size: 52px; position: relative; }
+  .ov span::after { content: ""; position: absolute; inset: -4px -16px -2px -16px;
+    background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 120 60' preserveAspectRatio='none'%3E%3Cpath d='M70 6 C 30 2, 4 14, 6 32 C 8 52, 52 58, 88 52 C 116 46, 118 22, 98 12 C 84 5, 60 4, 44 8' fill='none' stroke='%23c62828' stroke-width='3.5' stroke-linecap='round' vector-effect='non-scaling-stroke'/%3E%3C/svg%3E") center / 100% 100% no-repeat; }
+</style>
+</head>
+<body>
+  <div class="margin"></div>
+  <div class="text">
+    <p class="eyebrow">Репетитор английского · онлайн и в Астане</p>
+    <h1>Английский с репетитором, который сам сдал <span class="u">IELTS на 8.0</span></h1>
+    <p class="free">Первое занятие 30 минут — бесплатно</p>
+  </div>
+  <p class="site">English<b>Route</b> · englishroute-start.web.app</p>
+  <div class="card">
+    <div class="tape"></div>
+    <div class="ct">Мой результат IELTS</div>
+    <div class="row">Listening <span>8.0</span></div>
+    <div class="row">Reading <span>8.5</span></div>
+    <div class="row">Speaking <span>8.0</span></div>
+    <div class="row">Writing <span>7.0</span></div>
+    <div class="row ov">Overall <span>8.0</span></div>
+  </div>
+</body>
+</html>
